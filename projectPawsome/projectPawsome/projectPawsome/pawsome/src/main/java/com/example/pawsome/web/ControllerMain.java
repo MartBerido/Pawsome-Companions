@@ -36,8 +36,7 @@ public class ControllerMain {
 
     @GetMapping(path = "/")
     public String displayMain(Model model) {
-
-        return "home/homePage";
+        return "home/index";
     }
 
     @GetMapping(path = "/registration")
